@@ -1,0 +1,20 @@
+.welcome-text{
+    display: flex;
+    box-sizing: border-box;
+    height: 200px;
+    width: 250px;
+}
+
+.welcome-text p{
+    margin: 0;
+}
+
+.welcome-image{
+    float: left;
+    height: 100px;
+    border: 2px solid black;
+}
+
+table, th, td {
+    border:1px solid black;
+  }
