@@ -1,3 +1,5 @@
+/* parte de mi queria hacer esto mas elegante*/
+
 .welcome-text{
     display: flex;
     box-sizing: border-box;
@@ -18,3 +20,39 @@
 table, th, td {
     border:1px solid black;
   }
+
+
+/* header para todas las paginas */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    margin: 0;
+    background-color: #6666ff;
+    z-index: 10000;
+    height: 50px;
+}
+
+.header ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 90%;
+}
+
+/*footer para todas las paginas*/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    padding: 10px;
+    margin: 0;
+    background-color: #6666ff;
+    z-index: 10000;
+    height: 50px;
+}
