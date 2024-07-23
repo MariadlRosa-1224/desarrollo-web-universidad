@@ -1,21 +1,30 @@
-/* parte de mi queria hacer esto mas elegante*/
+/*estilos contenedor de pagina*/
 
-.welcome-text{
-    display: flex;
-    box-sizing: border-box;
-    height: 200px;
-    width: 250px;
+.website-container{
+    max-width: 1000px;
+    flex: 1;
+    background-color: #ffffff;
+
+    height: inherit;
+    margin: 0 auto;
+    align-items: inherit;
+    justify-content: center;
+    display: inherit;
+    flex-wrap: inherit;
+    position: relative;
+    flex-direction: inherit;
+
+    box-sizing: content-box;
 }
 
-.welcome-text p{
+ul{
+    list-style: none;
+
+    padding: 0;
     margin: 0;
 }
 
-.welcome-image{
-    float: left;
-    height: 100px;
-    border: 2px solid black;
-}
+
 
 table, th, td {
     border:1px solid black;

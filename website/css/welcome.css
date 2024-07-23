@@ -1,0 +1,16 @@
+.welcome{
+    display: flex;
+    box-sizing: border-box;
+    height: 200px;
+    width: 400px;
+}
+
+.welcome-text p{
+    margin: 0;
+}
+
+.welcome-image{
+    float: left;
+    height: 100px;
+    border: 2px solid black;
+}
