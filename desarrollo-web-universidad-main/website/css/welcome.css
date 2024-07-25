@@ -1,0 +1,18 @@
+.welcome{
+    display: flex;
+    box-sizing: border-box;
+    height: auto;
+    width: 500px;
+
+
+}
+
+.welcome-content p{
+    margin: 0;
+}
+
+.welcome-image{
+    float: left;
+    height: 100px;
+    border: 2px solid black;
+}
