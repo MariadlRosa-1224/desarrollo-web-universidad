@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/amigos-styles.css">
     <link rel="stylesheet" href="../css/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -24,42 +29,33 @@
 
         
 
-        <section class="formulario-container">
+        <div class="formContainer">
 
             <h1>formulario</h1>
 
             <form class="form" action="" method="post">
 
-                <ul>
+                <label for="usermame">Username</label>
+                <input type="text" name="usermame" id="username">
+                <br>
 
-                    <li>
-                        <label for="usermame">Username</label>
-                        <input type="text" name="usermame" id="username">
-                    </li>
+                <label for="name">Nombre</label>
+                <input type="text" name="nombre" id="name">
+                <br>
 
-                    <li>
-                        <label for="name">Nombre</label>
-                        <input type="text" name="nombre" id="name">
-                    </li>
+                <label for="person-image">Imagen (link)</label>
+                <input type="text" name="imagen" id="person-image">
+                <br>
 
-                    <li>
-                        <label for="person-image">Imagen (link)</label>
-                        <input type="text" name="imagen" id="person-image">
-                    </li>
+                <label for="pet">Mascota</label>
+                <input type="text" name="mascota" id="pet">
+                <br>
+                <button class="submit-button" type="submit">Enviar</button>
 
-                    <li>
-                        <label for="pet">Mascota</label>
-                        <input type="text" name="mascota" id="pet">
-                    </li>
-
-                    <li class="submit-button">
-                        <button type="submit">Enviar</button>
-                    </li>
-                </ul>
 
             </form>
 
-        </section>
+        </div>
 
         <section class="amigos">
             <h2>Amigos</h2>

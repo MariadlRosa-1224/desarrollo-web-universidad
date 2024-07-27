@@ -1,6 +1,9 @@
-.form{
-    margin: 0 auto;
-    display: block;
+
+
+
+
+
+label{
+    display: inline-block;
+    width: 100px;
 }
-
-

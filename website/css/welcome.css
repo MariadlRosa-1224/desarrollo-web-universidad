@@ -1,11 +1,13 @@
 .welcome{
     display: flex;
     box-sizing: border-box;
-    height: 200px;
-    width: 400px;
+    height: auto;
+    width: 500px;
+
+
 }
 
-.welcome-text p{
+.welcome-content p{
     margin: 0;
 }
 
