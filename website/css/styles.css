@@ -1,4 +1,8 @@
-/*estilos contenedor de pagina*/
+
+
+/*contenedor de las paginas*/
+
+
 
 .website-container{
     max-width: 800px;
@@ -7,6 +11,8 @@
 
     height: 100%;
     margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
     align-items: inherit;
     justify-content: center;
     display: inherit;
@@ -20,8 +26,12 @@
 
 h1{
     text-decoration: underline;
-    text-decoration-color: rgba(32,183,253,1);
+    text-decoration-color: #C467C4;
     font-family: "Noto Serif", serif;
+}
+
+h2{
+    color: #5541AE;
 }
 
 section{
@@ -29,32 +39,37 @@ section{
 }
 
 ol li::marker, ul li::marker{
-    color: rgba(32,183,253,1);
+    color: #5541AC;
 }
 
 
 a{
     text-decoration: none;
+    font-family: "Montserrat", sans-serif
 }
 
 
+/*Estilos para tablas*/
+
 table, th, td {
-    border:1px solid black;
+    border:1px solid #5E52BA;
 }
 
 th{
-    background-color: #6666ff;
+    background-color: #B46EB6;
+    color: white;
+    font-weight: bold;
 }
 
 tbody tr:nth-child(even) {
 
-    background-color: aqua;
+    background-color:#DD92DB;
 
     }
 
  tbody tr:nth-child(odd) {
 
-    background-color: turquoise;
+    background-color: #F5CAE0;
 
     }
 
@@ -74,10 +89,12 @@ p{
     top: 0;
     padding: 10px;
     margin: 0;
-    background-color: #6666ff;
+    background-color: #5E52BA;
     z-index: 10000;
     height: 50px;
 }
+
+
 
 .header ul{
     display: flex;
@@ -86,22 +103,47 @@ p{
     width: 90%;
 }
 
+.header ul li{
+    color: white;
+}
+
+
 .website-links a :hover{
 
-    color: aqua;
+    color: #F5CAE0;
 
 }
 
 /*footer para todas las paginas*/
 
 .footer{
+    padding-left: 4%;
+    padding-right: 4%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     bottom: 0;
-    padding: 10px;
+
     margin: 0;
-    background-color: #6666ff;
+    background-color: #5E52BA;
     z-index: 10000;
     height: 50px;
+}
+
+.footer a, .header a{
+    color: white;
+}
+
+footer h3
+{
+    font-family: "Noto Serif", serif;
+    color: #F5CAE0;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer a:hover, header a:hover{
+    color: #F5CAE0;
 }
