@@ -2,14 +2,18 @@
 
 /*contenedor de las paginas*/
 
+body{
+    min-width: 100vh;
+    position: relative;
+}
 
 
-.website-container{
+
+
+main{
     max-width: 800px;
     flex: 1;
     background-color: #ffffff;
-
-    height: 100%;
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -18,8 +22,9 @@
     display: inherit;
     position: relative;
     flex-direction: inherit;
-
+    padding-bottom: 50px;
     box-sizing: content-box;
+    min-height: 100vh;
 }
 
 /*Estilos generales para etiquetas*/
@@ -81,9 +86,10 @@ p{
 
 
 /* header para todas las paginas */
-.header{
+header{
     display: flex;
     justify-content: space-between;
+    min-height: 100%;
     align-items: center;
     position: sticky;
     top: 0;
@@ -96,14 +102,14 @@ p{
 
 
 
-.header ul{
+header ul{
     display: flex;
     list-style-type: none;
     justify-content: space-between;
     width: 90%;
 }
 
-.header ul li{
+header ul li{
     color: white;
 }
 
@@ -116,21 +122,27 @@ p{
 
 /*footer para todas las paginas*/
 
-.footer{
+footer{
+    left: 0;
     padding-left: 4%;
     padding-right: 4%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     bottom: 0;
+    position: absolute;
+
+
+
+    width: 100%;
 
     margin: 0;
     background-color: #5E52BA;
-    z-index: 10000;
+
     height: 50px;
 }
 
-.footer a, .header a{
+footer a, .header a{
     color: white;
 }
 
